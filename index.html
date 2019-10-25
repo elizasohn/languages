@@ -16,6 +16,10 @@
       <form class="quiz" action="index.html" method="post">
       <div class="row">
         <div class="col-6">
+            <div class="question" id="naming">
+              <label for="name">Name</label>
+              <input id="name" type="text">
+            </div>
             <div class="question" id="1">
               <h3>What would you like to make?</h3>
               <div class="radio">
@@ -158,9 +162,9 @@
             <button type="submit" name="button">Submit</button>
           </form>
           <div class="results">
-            <h4>The Best Language for you to learn is:</h4>
+            <h4>Hi <span class="quizNameInput"></span>, the Best Language for you to learn is:</h4>
             <div class="javascript">
-              <h5>Javascript.</h5>
+              <h5>Javascript</h5>
               Javascript is used to create responsive, interactive elements for webpages. JavaScript is one of the core technologies of the World Wide Web. It enables interactive web pages and is an essential part of web applications. The vast majority of websites use it, and major web browsers have a dedicated JavaScript engine to execute it.
             </div>
             <div class="joiner1">
@@ -184,7 +188,7 @@
               <h5>Swift</h5>
               Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, iPadOS, macOS, watchOS, tvOS, Linux, and z/OS. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C code written for Apple products.
             </div>
-                        <button value="Refresh Page" onClick="window.location.reload();">Start Again</button>
+          <button value="Refresh Page" onClick="window.location.reload();">Start Again</button>
           </div>
           </div>
   </body>
