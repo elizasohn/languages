@@ -21,16 +21,19 @@ $(document).ready(function(){
           $(".ruby").show();
           $(".python").hide();
           $(".swift").hide();
+          $(".joiner1").show();
         }else if (language4 === "python"){
           $(".javascript").show();
           $(".ruby").hide();
           $(".python").show();
           $(".swift").hide();
+          $(".joiner1").show();
         }else if (language4 === "swift"){
           $(".javascript").show();
           $(".ruby").hide();
           $(".python").hide();
           $(".swift").show();
+          $(".joiner1").show();
         }
       } else if (language1 === "ruby"){
         if (language4 === "javascript"){
@@ -38,6 +41,7 @@ $(document).ready(function(){
           $(".ruby").show();
           $(".python").hide();
           $(".swift").hide();
+          $(".joiner1").show();
         }else if (language4 === "ruby"){
           $(".javascript").hide();
           $(".ruby").show();
@@ -48,11 +52,13 @@ $(document).ready(function(){
           $(".ruby").show();
           $(".python").show();
           $(".swift").hide();
+          $(".joiner2").show();
         }else if (language4 === "swift"){
           $(".javascript").hide();
           $(".ruby").show();
           $(".python").hide();
           $(".swift").show();
+          $(".joiner2").show();
         }
       } else if (language1 === "python"){
         if (language4 === "javascript"){
@@ -60,11 +66,13 @@ $(document).ready(function(){
           $(".ruby").hide();
           $(".python").show();
           $(".swift").hide();
+          $(".joiner1").show();
         }else if (language4 === "ruby"){
           $(".javascript").hide();
           $(".ruby").show();
           $(".python").show();
           $(".swift").hide();
+          $(".joiner2").show();
         }else if (language4 === "python"){
           $(".javascript").hide();
           $(".ruby").hide();
@@ -75,6 +83,7 @@ $(document).ready(function(){
           $(".ruby").hide();
           $(".python").show();
           $(".swift").show();
+          $(".joiner3").show();
         }
       } else if (language1 === "swift"){
         if (language4 === "javascript"){
@@ -82,16 +91,19 @@ $(document).ready(function(){
           $(".ruby").hide();
           $(".python").hide();
           $(".swift").show();
+          $(".joiner1").show();
         }else if (language4 === "ruby"){
           $(".javascript").hide();
           $(".ruby").show();
           $(".python").hide();
           $(".swift").show();
+          $(".joiner2").show();
         }else if (language4 === "python"){
           $(".javascript").hide();
           $(".ruby").hide();
           $(".python").show();
           $(".swift").show();
+          $(".joiner3").show();
         }else if (language4 === "swift"){
           $(".javascript").hide();
           $(".ruby").hide();
