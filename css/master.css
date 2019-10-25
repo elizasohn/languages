@@ -4,6 +4,9 @@ body {
   text-shadow: 4px;
   background-image: url("../img/code.gif");
 }
+h1 {
+  padding: 40px;
+}
 h3 {
   padding: 10px;
 }
