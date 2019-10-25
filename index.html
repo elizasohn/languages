@@ -13,147 +13,182 @@
 
       <h1> Which coding language is right for you?</h1>
 
-      <img src="img/code.gif"</img>
-      <form class="quiz">
-        <h3>What would you like to make?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="javascript">
-            Interactive Web Pages
-          </label>
+console.log();
+
+
+      <form class="quiz" action="index.html" method="post">
+        <div class="question">
+          <h3>What would you like to make?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language1" id="javascript" value="javascript" checked>
+              Interactive Web Pages
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language1" id="ruby" value="ruby">
+              Web Applications
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language1" id="python" value="python">
+              Automation and Data Science
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language1" id="swift" value="swift">
+              iOS Applications
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Ruby">
-            Web Applications
-          </label>
+
+<!--
+        <div class="question" id="2">
+          <h3>Do you want to work Front-End or Back-End</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="javascript">
+              Front-End
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Ruby">
+              Back-End
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Python">
+              Automation and Data Science
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Swift">
+              iOS Applications
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Python">
-            Automation and Data Science
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Swift">
-            iOS Applications
-          </label>
+
+
+
+        <div class="question" id="3">
+          <h3>What Color Do You Prefer?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="javascript">
+              Blue
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Ruby">
+              Purple
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Python">
+              Red
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Swift">
+              Orange
+            </label>
+          </div>
         </div>
 
 
 
-        <h3>Do you want to work Front-End or Back-End</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="javascript">
-            Front-End
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Ruby">
-            Back-End
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Python">
-            Automation and Data Science
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Swift">
-            iOS Applications
-          </label>
-        </div>
-
-        <h3>What Color Do You Prefer?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="javascript">
-            Blue
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Ruby">
-            Purple
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Python">
-            Red
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Swift">
-            Orange
-          </label>
+        <div class="question" id="4">
+          <h3>Does God exist?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="javascript">
+              There's a Chrome extension that can help answer that.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Ruby">
+              There is more than one answer depending on who you are asking.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Python">
+              There is one - and only one - obvious answer to this question.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Swift">
+              There's an app for that.
+            </label>
+          </div>
         </div>
 
 
-        <h3>Does God exist?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="javascript">
-            There's a Chrome extension that can help answer at.
-          </label>
+
+        <div class="question" id="5">
+          <h3>Do you like to party?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="javascript">
+              I like to party.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Ruby">
+              He likes to party.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Python">
+              They like to party
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quiz" value="Swift">
+              No.
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Ruby">
-            There is more than one answer depending on who you are asking.
-          </label>
+        -->
+          <button type="submit" name="button">Submit</button>
+        </form>
+
+
+        <div class="results">
+          <div class="javascript">
+            The best language for you to learn is Javascript.
+            Javascript is used to create responsive, interactive elements for webpages
+
+          </div>
+          <div class="ruby">
+            The best language for you to learn is Ruby.
+            Ruby was mainly designed as a general-purpose scripting language, which provides the wide support for the different applications of ruby. It is mainly getting used for a web application, standard libraries, servers, and other system utilities. Ruby has one of the great strength is metaprogramming.
+
+          </div>
+          <div class="python">
+            The best language for you to learn is Python.
+            Python is a general purpose and high level programming language. You can use Python for developing desktop GUI applications, websites and web applications. Also, Python, as a high level programming language, allows you to focus on core functionality of the application by taking care of common programming tasks.
+
+          </div>
+          <div class="swift">
+            The best language for you to learn is Swift.
+            Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, iPadOS, macOS, watchOS, tvOS, Linux, and z/OS. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C code written for Apple products.
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Python">
-            There is one - and only one - obvious answer to this question.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="quiz" value="Swift">
-            There's an app for that.
-          </label>
-        </div>
-      </form>
-
-
-
-
-
-
-
-
-
-
-
-      <div class="results">
-        <div class="javascript">
-          The best language for you to learn is Javascript.
-          Javascript is used to create responsive, interactive elements for webpages
-
-        </div>
-        <div class="ruby">
-          The best language for you to learn is Ruby.
-          Ruby was mainly designed as a general-purpose scripting language, which provides the wide support for the different applications of ruby. It is mainly getting used for a web application, standard libraries, servers, and other system utilities. Ruby has one of the great strength is metaprogramming.
-
-        </div>
-        <div class="python">
-          The best language for you to learn is Python.
-          Python is a general purpose and high level programming language. You can use Python for developing desktop GUI applications, websites and web applications. Also, Python, as a high level programming language, allows you to focus on core functionality of the application by taking care of common programming tasks.
-
-        </div>
-        <div class="swift">
-          The best language for you to learn is Swift.
-          Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, iPadOS, macOS, watchOS, tvOS, Linux, and z/OS. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C code written for Apple products.
-        </div>
-      </div>
 
 
 

@@ -1,3 +1,18 @@
+
+body {
+  color: white;
+  text-shadow: 4px;
+  background-image: url("../img/code.gif");
+}
+h3 {
+  padding: 10px;
+}
+.results {
+  background-color: #2b2b2b;
+  padding: 30px;
+  margin:20px;
+  border-radius: 25px;
+}
 .javascript {
   display: none;
 }
@@ -13,6 +28,9 @@
   display: none;
 }
 
-img {
-  width: 200px;
+.question {
+  background-color: #2b2b2b;
+  padding: 30px;
+  margin:20px;
+  border-radius: 25px;
 }
