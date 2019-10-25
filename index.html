@@ -16,7 +16,7 @@
       <form class="quiz" action="index.html" method="post">
       <div class="row">
         <div class="col-6">
-            <div class="question">
+            <div class="question" id="1">
               <h3>What would you like to make?</h3>
               <div class="radio">
                 <label>
@@ -45,10 +45,10 @@
             </div>
 
             <div class="question" id="2">
-              <h3>Do you want to work Front-End or Back-End</h3>
+              <h3>Do you want to work Front-End or Back-End?</h3>
               <div class="radio">
                 <label>
-                  <input type="radio" name="language2" value="javascript">
+                  <input type="radio" name="language2" value="javascript" checked>
                   Front-End
                 </label>
               </div>
@@ -61,13 +61,13 @@
               <div class="radio">
                 <label>
                   <input type="radio" name="language2" value="python">
-                  Automation and Data Science
+                  Who Cares
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="language2" value="swift">
-                  iOS Applications
+                  None of the above!
                 </label>
               </div>
             </div>
@@ -76,7 +76,7 @@
               <h3>What Color Do You Prefer?</h3>
               <div class="radio">
                 <label>
-                  <input type="radio" name="language3" value="javascript">
+                  <input type="radio" name="language3" value="javascript" checked>
                   Blue
                 </label>
               </div>
@@ -105,7 +105,7 @@
             <h3>Does God exist?</h3>
             <div class="radio">
               <label>
-                <input type="radio" name="language4" value="javascript">
+                <input type="radio" name="language4" value="javascript" checked>
                 There's a Chrome extension that can help answer that.
               </label>
             </div>
@@ -132,7 +132,7 @@
             <h3>Do you like to party?</h3>
             <div class="radio">
               <label>
-                <input type="radio" name="language5" value="javascript">
+                <input type="radio" name="language5" value="javascript" checked>
                 I like to party.
               </label>
             </div>
@@ -158,8 +158,9 @@
             <button type="submit" name="button">Submit</button>
           </form>
           <div class="results">
+            <h4>The Best Language for you to learn is:</h4>
             <div class="javascript">
-              The best language for you to learn is Javascript.
+              <h5>Javascript.</h5>
               Javascript is used to create responsive, interactive elements for webpages
             </div>
 

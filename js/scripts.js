@@ -1,6 +1,8 @@
 $(document).ready(function(){
   $("form").submit(function(event){
 
+    $(".results").show();
+
     var language1 = $("input:radio[name=language1]:checked").val();
     var language2 = $("input:radio[name=language2]:checked").val();
     var language3 = $("input:radio[name=language3]:checked").val();
