@@ -7,6 +7,7 @@ $(document).ready(function(){
     var language4 = $("input:radio[name=language4]:checked").val();
     var language5 = $("input:radio[name=language5]:checked").val();
 
+
       if (language1 === "javascript"){
         if (language4 === "javascript"){
           $(".javascript").show();
